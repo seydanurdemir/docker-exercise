@@ -12,7 +12,7 @@ services:
     container_name: c_html
     image: httpd
     volumes:
-      - C:/Users/SeydaNur/Desktop/docker_tutorial/html:/usr/local/apache2/htdocs/ # takes our html file, give absolute path
+      - C:/Users/SeydaNur/Desktop/docker-exercise/html:/usr/local/apache2/htdocs/ # takes our html file, give absolute path
     # - html:/usr/local/apache2/htdocs/ # takes httpd's own html, prints "It works!"
     ports:
       - 9090:80
