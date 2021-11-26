@@ -1,0 +1,2 @@
+docker volume create v_test
+docker run -d -p 8085:80 --name c_nginx2 -v C:/Users/SeydaNur/Desktop/docker-exercise/html:/usr/share/nginx/html nginx
